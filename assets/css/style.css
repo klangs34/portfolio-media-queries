@@ -230,16 +230,17 @@ label{
     .nav_container {
         display: block;
         margin-left: 0;
-        width: 100%;
+        width: 89%;
         text-align: center;
     }
     h1 {
         width: 100%;
     }
     .nav_group {
-        padding: 20px 59px;
+        padding: 20px;
         flex-wrap: wrap;
         float: left;
+        width: 100%;
     }
     .container {
         display: flex;
@@ -247,10 +248,14 @@ label{
         
     }
     .main {
-        margin-bottom: 70px;
+        margin: 0 20px 80px 20px;
     }
     footer {
-        position: fixed;
+        position: relative;
         bottom: 0;
+    }
+
+    .main > .group {
+        align-content: center;
     }
 }
